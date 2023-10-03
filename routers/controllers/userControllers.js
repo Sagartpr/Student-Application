@@ -1,5 +1,5 @@
 const asyncHandler = require("express-async-handler");
-const User = require(registerUser,loginUser,currentUser);
+const User = require(registerUser,loginUser);
 
 
 const registerUser = asyncHandler(async(req,res) => {
@@ -16,8 +16,6 @@ const loginUser = asyncHandler(async(req,res) => {
     res.json({message:`login user `});
 });
 
-const currentUser = asyncHandler(async(req,res) => {
-    res.json({message:`current user `});
-});
 
-module.exports = {registerUser,loginUser,currentUser};
+
+module.exports = {registerUser,loginUser};

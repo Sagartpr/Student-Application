@@ -1,0 +1,49 @@
+
+{
+  "user": [
+    {
+      "name": "rahul",
+      "email": "r@gmail.com",
+      "password": 84798798649694
+    },
+    {
+      "name": "harsha",
+      "email": "h@gmail.com",
+      "password": 84798798649694
+    },
+    {
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "password": 84798798649694
+    }
+  ],
+  "student": [
+    {
+      "id": "001",
+      "name": "harsha",
+      "address": "blore"
+    },
+    {
+      "id": "002",
+      "name": "rahul",
+      "address": "blore"
+    },
+    {
+      "id": "003",
+      "name": "harith",
+      "address": "blr"
+    },
+    {
+      "id": "3drWP3m"
+    },
+    {
+      "id": "TkbS8Ti"
+    },
+    {
+      "id": "7EJB4lB"
+    },
+    {
+      "id": "MeSm4oj"
+    }
+  ]
+}

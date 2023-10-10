@@ -6,8 +6,8 @@ const app = express();
 
 const port = process.env.PORT || 5001;
 app.use(express.json());
-app.use("/api/student", require('/home/sagar/Desktop/Student Application/routers/studentRoutes.js'));
-app.use("/api/users", require('/home/sagar/Desktop/Student Application/routers/userRoutes.js'));
+app.use("/api/student", require('./routers/controllers/studentRoutes'));
+app.use("/api/users", require('./routers/controllers/userRoutes'));
 app.use(errorHandler);
 
 app.listen(port, () => {

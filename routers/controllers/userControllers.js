@@ -1,5 +1,4 @@
 const asyncHandler = require("express-async-handler");
-const User = require(registerUser,loginUser);
 
 
 const registerUser = asyncHandler(async(req,res) => {
